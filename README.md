@@ -38,7 +38,7 @@ Complete table with points vulnerables, vulnerability details and a comparison b
 |    14     |    GET    |  /js/lodash-3.9.0.js           |            Command Injection                 |
 |    15     |    GET    |  /js/lodash-3.9.0.js           | Regular Expression Denial of Service (ReDoS) |
 |    16     |    GET    |  /js/bootstrap-4.1.3.js        |           Prototype Pollution                |
-|    17     |    GET    |  /ftp/WS_FTP.LOG               |            Misconfiguration                  |
+|    17     |    GET    |  /WS_FTP.LOG                   |            Misconfiguration                  |
 |    18     |    GET    |  /register.php                 |      Remote Command Execution - (RCE)        |
 
 ## How Install
