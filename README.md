@@ -44,11 +44,11 @@ Complete table with points vulnerables, vulnerability details and a comparison b
 
 ## How Install
 
-1º - Install and configure Apache, PHP and MySQL on your Linux
-2º - Import the YRpreyPHP files to /var/www/
-3º - Create a database named "yrprey"
-4º - Import the yrprey.sql into the database.
-5º - Access the address http://localhost in your browser
+- 1º - Install and configure Apache, PHP and MySQL on your Linux.
+- 2º - Import the YRpreyPHP files to /var/www/
+- 3º - Create a database named "yrprey".
+- 4º - Import the yrprey.sql into the database.
+- 5º - Access the address http://localhost in your browser.
 
 ## Observation
 You can test on Xampp or any other platform that supports PHP and MySQL.
