@@ -108,9 +108,11 @@ img.profile-photo-lg{
                     $q = "DELETE FROM comment where id > 2";
                     $remove = mysqli_query($mysqli, $q);
                     
-                    $q = "INSERT INTO comment (id, name, comment) VALUES (NULL, '$name', '$comment')";
+                    $sql = "INSERT INTO comment (name, comment) VALUES (?, ?)";
+                    $stmt = $mysqli->prepare($sql);
+                    $stmt->bind_param("ss", $name, $comment);
 
-                    if (mysqli_query($mysqli, $q)) {                
+                    if ($stmt->execute()) {
 
                         print '<br><br><div class="alert alert-success" role="alert">
                         ✅ Success published!
@@ -123,6 +125,7 @@ img.profile-photo-lg{
 </div>';
                 }
               }
+
                 $query  = "SELECT * FROM comment ORDER BY id DESC LIMIT 4";                
 
                 $results = mysqli_query($mysqli, $query) or die(mysqli_error($mysqli));
