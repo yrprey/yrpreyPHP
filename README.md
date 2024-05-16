@@ -27,20 +27,19 @@ Complete table with points vulnerables, vulnerability details and a comparison b
 |    03     |    GET    |  /tools.php?id={numer_id}      |            MySQL Injection                   |
 |    04     |    GET    |  /warriors.php?id={numer_id}   |            MySQL Injection                   |
 |    05     |    POST   |  /guestbook.php                |    Cross-site scripting - Stored (XSS)       |
-|    06     |    POST   |  /guestbook.php                |    Cross-site scripting - Stored (XSS)       |
-|    07     |    POST   |  /login.php                    |          MySQL Injection (' or 1=1#)         |
-|    08     |    GET    |  /change.php?password={string} |      Cross-site request forgery (CSRF)       |
-|    09     |    GET    |  /profile.php?id={string}      |           Web Parameter Tampering            |
-|    10     |    N/A    |  /index.php                    |  Session Hijacking (Manipulation Cookie)     |
-|    11     |    GET    |  /phpinfo.php                  |            Misconfiguration                  |
-|    12     |    GET    |  /js/jquery-1.5.1.js           |  Cross-site scripting - Reflect (RXSS)       |
-|    13     |    GET    |  /js/jquery-1.5.1.js           |           Prototype Pollution                |
-|    14     |    GET    |  /js/lodash-3.9.0.js           |           Prototype Pollution                |
-|    15     |    GET    |  /js/lodash-3.9.0.js           |            Command Injection                 |
-|    16     |    GET    |  /js/lodash-3.9.0.js           | Regular Expression Denial of Service (ReDoS) |
-|    17     |    GET    |  /js/bootstrap-4.1.3.js        |           Prototype Pollution                |
-|    18     |    GET    |  /ftp/WS_FTP.LOG               |            Misconfiguration                  |
-|    19     |    GET    |  /register.php                 |      Remote Command Execution - (RCE)        |
+|    06     |    POST   |  /login.php                    |          MySQL Injection (' or 1=1#)         |
+|    07     |    GET    |  /change.php?password={string} |      Cross-site request forgery (CSRF)       |
+|    08     |    GET    |  /profile.php?id={string}      |           Web Parameter Tampering            |
+|    09     |    N/A    |  /index.php                    |  Session Hijacking (Manipulation Cookie)     |
+|    10     |    GET    |  /phpinfo.php                  |            Misconfiguration                  |
+|    11     |    GET    |  /js/jquery-1.5.1.js           |  Cross-site scripting - Reflect (RXSS)       |
+|    12     |    GET    |  /js/jquery-1.5.1.js           |           Prototype Pollution                |
+|    13     |    GET    |  /js/lodash-3.9.0.js           |           Prototype Pollution                |
+|    14     |    GET    |  /js/lodash-3.9.0.js           |            Command Injection                 |
+|    15     |    GET    |  /js/lodash-3.9.0.js           | Regular Expression Denial of Service (ReDoS) |
+|    16     |    GET    |  /js/bootstrap-4.1.3.js        |           Prototype Pollution                |
+|    17     |    GET    |  /ftp/WS_FTP.LOG               |            Misconfiguration                  |
+|    18     |    GET    |  /register.php                 |      Remote Command Execution - (RCE)        |
 
 ## How Install
 
