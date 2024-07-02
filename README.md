@@ -2,7 +2,7 @@
 
 ![yprey](https://i.imgur.com/zHoDJG9_d.webp?maxwidth=760&fidelity=grand)
 
-**Backend created by [Fernando Mengali](https://www.linkedin.com/in/fernando-mengali-273504142/)**
+**Backend by [Fernando Mengali](https://www.linkedin.com/in/fernando-mengali-273504142/)**
 
 YpreyPHP is an Web Application framework with vulnerabilities from the OWASP TOP 10. The framework was developed for teaching and learning details in Pentest (penetration testing) and Application Security. In the context of Offensive Security, vulnerabilities contained in web applicaton can be identified, exploited and compromised. For application security professionals and specifics, the framework provides an in-depth understanding of code-level vulnerabilities. Currently, Yrprey is one of the frameworks with the highest number of vulnerabilities in the world, making it valuable for educational, learning and teaching purposes in the Information Security area. For more information about the vulnerabilities, we recommend exploring the details available at [yrprey.com](https://yrprey.com).
 
